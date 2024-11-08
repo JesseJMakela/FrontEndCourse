@@ -1,0 +1,70 @@
+Lappeenrannan teknillinen yliopisto
+LUT School of Engineering Sciences
+
+
+
+
+Software Development Skills Front-End, Online course
+
+Jesse Mäkelä, 001154586
+
+
+LEARNING DIARY
+
+
+Date : 2.11.2024
+
+Started the course
+
+Read the course information and started to watch the video
+
+Reached 19 minutes in the video and created the rough homepage and got it running in the live server. 
+
+The nesting feels overwhelming and so much is unexplained. I just do what the guys says In the video.
+
+
+
+Date: 3.11.2024
+
+Reached 33 minutes in the video. 
+
+Did something in the css file to style the buttons with placement and colors.
+
+
+Date 7.11.2024
+
+continuing the work on buttons and utility classes part. 
+
+At this point I made sure the git works on my project. I made a repository in github and made two folder one for my course work and one for the project.
+
+Starting to understand the way html works. 
+
+I think I’ll stop here copying the video and just watch it to finish and after that I’ll start my own project.
+
+
+
+8.11.2024
+
+Decided to make the website about my cs2 highlight and info about my profiles in the game. Named the site BeaTSyHUB that.
+Beatsy is my in game name so the name just came from that.
+
+I learned how to embed youtube videos into websites.
+
+Added some pictures of me and my profile.
+
+Tried to style the text and pictures to match each other.
+
+Learned how to make quarrys to make the design work well in mobile devices
+
+Learned about git and how to deploy the site using netify
+
+Deployed the site, wrote read me and finished the course.
+
+
+
+
+
+
+
+
+
