@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeaTsyHub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"> 
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo"><img src="images/a sitelle.webp" alt="Logo" class="logo-img"> BeaTsy Hub </h1>
+            <div class="main-menu">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Youtube</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Welcome -->
+    <section class="hero" id="home">
+        <div class="text-center">
+            <h2 class="text-xxl">Welcome to BeaTsyHUB</h2>
+            <p class="text-lg">Here is collection of BeaTsy's cs2 highlighs and more!</p>
+            <div class="text-center">
+            </div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+            
+                <div class="hero-btn">
+                    <div class="text-xl">Check out my Faceit and steam profile!</div>
+                    <div class="text-bottom">
+                        <div class="hero-btn">
+                            <a href="https://steamcommunity.com/id/beatsybob/" class="btn btn-light" target="_blank">My Steam</a>
+                        </div>
+                    </div>
+                    
+                    <a href="https://www.faceit.com/en/players/BeaTsy-" class="btn btn-primary" target="_blank">Faceit</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About me -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="text-xl">About Me</h2>
+                    <p class="text-md">I am 21 year old software engineering student form Lappeenranta Finland. 
+                        I have been playing Counter strike since 2015 and I have become quite good at it.
+                        Summer 2024 I peaked at top 1000 players in finland and after that I started making 
+                        youtube videos from clips I have generated. Hope you enjoy and thanks for reading. :)
+                    </p>
+                </div>
+            </div>
+        </div>
+ 
+    <!-- Video Section (Flexbox) -->
+    <section class="video" id="about">
+        <div class="container text-center">
+            <h2 class="text-xl">Newest video!</h2>
+            <div class="video-content">
+                <div class="video-preview">
+                    <iframe width="100%" height="200" src="https://www.youtube.com/embed/kWAN_6SUqqc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    
+                </div>
+                <p class="text-md">Like and subscribe!</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Video cards (CSS Grid) -->
+    <section class="testimonials bg-light" id="services">
+        <div class="container">
+            <h2 class="text-xl text-center">My Youtube Videos</h2>
+            <div class="testimonials-grid">
+                <div class="card">
+                    <h3 class="text-lg">AWP Highlight Video</h3>
+                    
+                    <div class="video-wrapper">
+                        <iframe width="100%" height="200" src="https://www.youtube.com/embed/kWAN_6SUqqc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3 class="text-lg">Summer 2024 Highlights</h3>
+                    
+                    <div class="video-wrapper">
+                        <iframe width="100%" height="200" src="https://www.youtube.com/embed/kkkmJODSwHU?si=BXVf3cm1o_VWyryD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3 class="text-lg">Ristiohjain liiga Highlight</h3>
+                    
+                    <div class="video-wrapper">
+                        <iframe width="100%" height="200" src="https://www.youtube.com/embed/kvq7AjwtuM4?si=4FbtpvJHs6xNjJfS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact bg-dark" id="contact">
+        <div class="container-sm text-center">
+            <p class="text-md">Get in touch with me.</p>
+            <a href="https://steamcommunity.com/id/beatsybob/" class="btn btn-light" target="_blank">My Steam</a>
+            <a href="mailto:jesse.j.makela@gmail.com" class="btn btn-light">My Email</a>
+        </div>
+    </section>
+
+</body>
+</html>

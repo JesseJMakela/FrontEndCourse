@@ -75,10 +75,10 @@ img {
 }
 
 .hero .container{
-    background: url('../images/hero-bg.png') no-repeat;
+    background: url('/images/steamprofile.jpeg') no-repeat;
     background-size: contain;
-    background-position: center bottom;
-    height: 550px;
+    background-position: center;
+    height: 600px;
 }
 
 .hero .hero-content{
@@ -86,8 +86,13 @@ img {
 }
 
 .hero .hero-text{
-    width: 70%;
+    width: 50%;
     margin-bottom: 20px;
+}
+
+.hero .hero-btn{
+    
+    margin-top: 20px;
 }
 
 /* Video Section */
@@ -242,3 +247,17 @@ img {
     padding: 20px;
 }
 
+/* images */
+
+.logo-img {
+    width: 60px; 
+    height: auto;
+    margin: 20px; 
+    vertical-align: middle; /* vertically align the image */
+}
+
+.logo{
+    font-size: 3rem;
+    font-weight: 600;
+    
+}
