@@ -58,8 +58,20 @@ Learned how to make quarrys to make the design work well in mobile devices
 
 Learned about git and how to deploy the site using netify
 
-Deployed the site, wrote read me and finished the course.
+Deployed the site and wrote read me 
 
+
+9.11.2024
+
+Changed the colors of the navbar
+
+I think I am finished with the site
+
+20.11.2024
+
+Made the video about deploying the site and showing what is there
+
+posted my git hub repository to the teacher
 
 
 

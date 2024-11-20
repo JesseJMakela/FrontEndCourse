@@ -172,6 +172,11 @@ img {
     color: #fff;
 }
 
+.btn-blue{
+    background: #007bff;
+    color: #fff;
+}
+
 .btm-block{
     display: block;
     width: 100%;
@@ -269,6 +274,17 @@ img {
         display: none;
     }
 
+    .navbar .main-menu ul.active{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
     .navbar ul li:last-child a {
         margin-left: 0;
     }
@@ -279,17 +295,6 @@ img {
 
     .navbar ul li a i {
         margin-right: 5px;
-    }
-
-    .navbar .main-menu ul.active{
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        background: #fff;
-        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
 
     .hero .hero-content{
