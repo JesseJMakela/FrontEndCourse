@@ -74,6 +74,20 @@ Made the video about deploying the site and showing what is there
 posted my git hub repository to the teacher
 
 
+6.12 
+Had noticed that I needed to make the site have pages to the project to pass
+
+made 2 pages videos and about
+
+took away the contact button from the nav bar an put contacts on every pages bottom
+
+made the buttons to lead right places from every page
+
+did so if you are in the home screen and press home it doesnt jump down the page
+
+Trying to return my repository again for reevaluation
+
+
 
 
 

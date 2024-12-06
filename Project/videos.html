@@ -11,64 +11,52 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon"> 
-    <script src="js/script.js"></script>
 </head>
 <body>
-
     <!-- Navbar -->
-    <nav class="navbar" id="#navbar">
+    <nav class="navbar">
         <div class="container bg-dark">
             <h1 class="logo"><img src="images/a sitelle.webp" alt="Logo" class="logo-img"> BeaTsy Hub </h1>
             <div class="main-menu">
                 <ul>
-                    <li><a href="#navbar" style="color: lightblue;">Home</a></li>
-                    <li><a href="videos.html" style="color: lightblue;">Youtube</a></li>
+                    <li><a href="index.html" style="color: lightblue;">Home</a></li>
+                    <li><a href="#video" style="color: lightblue;">Youtube</a></li>
                     <li><a href="about.html" style="color: lightblue;">About</a></li>
+                    
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Welcome -->
-    <section class="hero" id="home">
-        <div class="text-center">
-            <h2 class="text-xxl">Welcome to BeaTsy HUB</h2>
-            <p class="text-lg">Here is collection of BeaTsy's cs2 highlighs and more!</p>
-            <div class="text-center">
-            </div>
-        </div>
+    <!-- Video cards (CSS Grid) -->
+    <section class="testimonials bg-light" id="video">
         <div class="container">
-            <div class="hero-content">
-            
-                <div class="hero-btn">
-                    <div class="text-xl">Check out my Faceit and steam profile!</div>
-                    <div class="text-bottom">
-                        <div class="hero-btn">
-                            <a href="https://steamcommunity.com/id/beatsybob/" class="btn btn-light" target="_blank">My Steam</a>
-                        </div>
+            <h2 class="text-xl text-center">My Youtube Videos</h2>
+            <div class="testimonials-grid">
+                <div class="card">
+                    <h3 class="text-lg">AWP Highlight Video</h3>
+                    
+                    <div class="video-wrapper">
+                        <iframe width="100%" height="200" src="https://www.youtube.com/embed/kWAN_6SUqqc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
+                </div>
+                <div class="card">
+                    <h3 class="text-lg">Summer 2024 Highlights</h3>
                     
-                    <a href="https://www.faceit.com/en/players/BeaTsy-" class="btn btn-primary" target="_blank">Faceit</a>
+                    <div class="video-wrapper">
+                        <iframe width="100%" height="200" src="https://www.youtube.com/embed/kkkmJODSwHU?si=BXVf3cm1o_VWyryD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="card">
+                    <h3 class="text-lg">Ristiohjain liiga Highlight</h3>
+                    
+                    <div class="video-wrapper">
+                        <iframe width="100%" height="200" src="https://www.youtube.com/embed/kvq7AjwtuM4?si=4FbtpvJHs6xNjJfS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-
- 
-    <!-- Video Section (Flexbox) -->
-    <section class="video" id="about">
-        <div class="container text-center">
-            <h2 class="text-xl">Newest video!</h2>
-            <div class="video-content">
-                <div class="video-preview">
-                    <iframe width="100%" height="200" src="https://www.youtube.com/embed/kWAN_6SUqqc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    
-                </div>
-                <p class="text-md">Like and subscribe!</p>
-            </div>
-        </div>
-    </section>
-    
 
     <!-- Contact Section -->
     <section class="contact bg-dark" id="contact" style="position: fixed; bottom: 0; width: 100%;"></section>
@@ -78,6 +66,3 @@
             <a href="mailto:jesse.j.makela@gmail.com" class="btn btn-light">Email</a>
         </div>
     </section>
-
-</body>
-</html>
